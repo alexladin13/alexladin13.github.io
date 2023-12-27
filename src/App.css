@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+* { 
+  margin: 0;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: linear-gradient(0deg, rgb(76, 33, 117) 0%, #cd64e0 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 0;
+}
+
+:root {
+  --primary: #rgba(0, 0, 0, 0.6);
+  --secondary: blueviolet;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 1px solid black;
+}
